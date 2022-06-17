@@ -28,6 +28,7 @@ Night.DarkGreen   = "#5EB95D"
 Night.DarkYellow  = "#B99502"
 Night.DarkMagenta = "#FE92E1"
 Night.DarkCyan    = "#56D6D6"
+Night.DarkAqua    = "#00AACC"
 Night.DarkGrey    = "#555555"
 Night.DarkGrey_2  = "#828989"
 

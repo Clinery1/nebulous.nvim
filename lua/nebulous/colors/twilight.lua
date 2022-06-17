@@ -28,6 +28,7 @@ Twilight.DarkGreen   = "#46BF45"
 Twilight.DarkYellow  = "#FFCC00"
 Twilight.DarkMagenta = "#FE92E1"
 Twilight.DarkCyan    = "#FB9631"
+Twilight.DarkAqua    = "#FAF13C"
 Twilight.DarkGrey    = "#5E5E5E"
 Twilight.DarkGrey_2  = "#828989"
 

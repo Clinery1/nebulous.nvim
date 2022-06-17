@@ -29,6 +29,7 @@ Quasar.DarkGreen   = "#61D143"
 Quasar.DarkYellow  = "#66041E"
 Quasar.DarkMagenta = "#D63A69"
 Quasar.DarkCyan    = "#CC8B29"
+Quasar.DarkAqua    = "#03428C"
 Quasar.DarkGrey    = "#696B6B"
 Quasar.DarkGrey_2  = "#878D8D"
 

@@ -149,7 +149,7 @@ function setup.load_colors(scheme, settings)
     TSException =       { fg = scheme.DarkRed,    bg = scheme.none, scheme.none },
     TSField =           { fg = scheme.Purple,     bg = scheme.none, scheme.none },
     TSFloat =           { fg = scheme.Orange,     bg = scheme.none, scheme.none },
-    TSFuncBuiltin =     { fg = scheme.Aqua,       bg = scheme.none, style = settings.st_builtins },
+    TSFuncBuiltin =     { fg = scheme.DarkAqua,   bg = scheme.none, style = settings.st_builtins },
     TSFuncMacro =       { fg = scheme.Aqua,       bg = scheme.none, scheme.none },
     TSFunction =        { fg = scheme.Aqua,       bg = scheme.none, style = settings.st_functions },
     TSInclude =         { fg = scheme.Cyan,       bg = scheme.none, scheme.none },

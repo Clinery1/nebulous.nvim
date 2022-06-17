@@ -28,6 +28,7 @@ Fullmoon.DarkGreen   = "#70C859"
 Fullmoon.DarkYellow  = "#50AE9E"
 Fullmoon.DarkMagenta = "#E383C9"
 Fullmoon.DarkCyan    = "#EAA537"
+Fullmoon.DarkAqua    = "#D1A677"
 Fullmoon.DarkGrey    = "#606060"
 Fullmoon.DarkGrey_2  = "#7B8080"
 

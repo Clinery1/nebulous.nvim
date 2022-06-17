@@ -28,6 +28,7 @@ Midnight.DarkGreen   = "#61D143"
 Midnight.DarkYellow  = "#19CBCC"
 Midnight.DarkMagenta = "#FE92E1"
 Midnight.DarkCyan    = "#FFAE2D"
+Midnight.DarkAqua    = "#FAD726"
 Midnight.DarkGrey    = "#615E5E"
 Midnight.DarkGrey_2  = "#878D8D"
 
