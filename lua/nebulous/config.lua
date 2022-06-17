@@ -13,6 +13,7 @@ local default_options = {
     keywords = false,
     functions = false,
     variables = false,
+    builtins = false,
   },
   custom_colors = {},
 }
@@ -39,6 +40,7 @@ function M.get_scheme_options(config)
   settings.st_keywords = config.italic.keywords and "italic" or "NONE"
   settings.st_functions = config.italic.functions and "italic" or "NONE"
   settings.st_variables = config.italic.variables and "italic" or "NONE"
+  settings.st_builtins = config.italic.builtins and "italic" or "NONE"
 
   return settings
 end
