@@ -22,10 +22,10 @@ Night.Custom_3    = "#E2E7E6"
 
 --Dark colors
 Night.DarkRed     = "#FD2E6A"
-Night.DarkOrange  = "#ff8d03"
+Night.DarkOrange  = "#DE7A00"
 Night.DarkBlue    = "#007ED3"
 Night.DarkGreen   = "#5EB95D"
-Night.DarkYellow  = "#FFCC00"
+Night.DarkYellow  = "#B99502"
 Night.DarkMagenta = "#FE92E1"
 Night.DarkCyan    = "#56D6D6"
 Night.DarkGrey    = "#555555"

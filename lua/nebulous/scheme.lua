@@ -141,7 +141,7 @@ function setup.load_colors(scheme, settings)
     TSBoolean =         { fg = scheme.DarkYellow, bg = scheme.none, scheme.none },
     TSCharacter =       { fg = scheme.Orange,     bg = scheme.none, scheme.none },
     TSConditional =     { fg = scheme.Red,        bg = scheme.none, scheme.none },
-    TSConstBuiltin =    { fg = scheme.Orange,     bg = scheme.none, style = settings.st_builtins },
+    TSConstBuiltin =    { fg = scheme.DarkOrange, bg = scheme.none, style = settings.st_builtins },
     TSConstMacro =      { fg = scheme.Orange,     bg = scheme.none, scheme.none },
     TSConstant =        { fg = scheme.Orange,     bg = scheme.none, scheme.none },
     TSConstructor =     { fg = scheme.DarkYellow, bg = scheme.none, scheme.none },
@@ -169,7 +169,7 @@ function setup.load_colors(scheme, settings)
     TSType =            { fg = scheme.Yellow,     bg = scheme.none, scheme.none },
     TSTypeBuiltin =     { fg = scheme.DarkYellow, bg = scheme.none, style = settings.st_builtins },
     TSVariable =        { fg = scheme.Cyan,       bg = scheme.none, style = settings.st_variables },
-    TSVariableBuiltin = { fg = scheme.Orange,     bg = scheme.none, style = settings.st_builtins },
+    TSVariableBuiltin = { fg = scheme.DarkCyan,   bg = scheme.none, style = settings.st_builtins },
 
     -- Treesitter rainbow
     rainbowcol1 = { fg = scheme.Red,    bg = scheme.none, scheme.none },
