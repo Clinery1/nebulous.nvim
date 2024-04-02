@@ -6,7 +6,7 @@ Minimalist Collection of Colorschemes Written in Lua
 
 ## Features
 
-- 5 available variants (for the moment)
+- 6 available variants (for the moment)
 - It has support for a large number of plugins such as LSP, Tree-Sitter, Telescope, Nvim-Tree and others.
 - Support for Vim Terminal Colors
 - Lualine scheme
@@ -21,7 +21,7 @@ Minimalist Collection of Colorschemes Written in Lua
 
 ## Prequisites
 
-- [Neovim version 0.5+](https://github.com/neovim/neovim/releases)
+- [Neovim version 0.8+](https://github.com/neovim/neovim/releases)
 - (Recommended) [Tree-Sitter](https://github.com/nvim-treesitter/nvim-treesitter) Highlight for a better use of colors
 
 ## Preview
@@ -36,6 +36,11 @@ Minimalist Collection of Colorschemes Written in Lua
 #### Midnight
 
 ![midnight](./media/midnight.gif)
+
+
+#### Nova
+
+![twilight](./media/nova.gif)
 
 #### Twilight
 
@@ -134,6 +139,7 @@ require("nebulous").setup {
 | twilight            | `alternative` |
 | midnight            | `alternative` |
 | fullmoon            | `alternative` |
+| nova                | `alternative` |
 | quasar              | `alternative` |
 
 ### Lualine scheme
@@ -209,4 +215,4 @@ More features and color variants are coming in future updates!
 - In case you find an error in any color scheme, please make an appropriate issue describing in detail the problem found.
 - Also, if you want to make any contribution, please make the PR descriptive for easy integration.
 
-I hope you enjoy these color schemes!!
+I hope you enjoy these color schemes!
