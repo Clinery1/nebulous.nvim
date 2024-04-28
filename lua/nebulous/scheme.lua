@@ -34,13 +34,13 @@ function setup.load_colors(scheme, settings)
   --  EDITOR COLORS  --
   ---------------------
   local editor = {
-    Boolean =          { fg = scheme.DarkYellow, bg = scheme.none,       scheme.none },
-    Character =        { fg = scheme.Orange,     bg = scheme.none,       scheme.none },
+    -- Boolean =          { fg = scheme.DarkYellow, bg = scheme.none,       scheme.none },
+    -- Character =        { fg = scheme.Orange,     bg = scheme.none,       scheme.none },
     ColorColumn =      { fg = scheme.none,       bg = scheme.LightGrey,  scheme.none },
-    Comment =          { fg = scheme.DarkGrey,   bg = scheme.none,       style = settings.st_comments },
+    -- Comment =          { fg = scheme.DarkGrey,   bg = scheme.none,       style = settings.st_comments },
     Conceal =          { fg = scheme.Blue,       bg = scheme.none,       scheme.none },
-    Conditional =      { fg = scheme.Red,        bg = scheme.none,       scheme.none },
-    Constant =         { fg = scheme.Orange,     bg = scheme.none,       scheme.none },
+    -- Conditional =      { fg = scheme.Red,        bg = scheme.none,       scheme.none },
+    -- Constant =         { fg = scheme.Orange,     bg = scheme.none,       scheme.none },
     Cursor =           { fg = scheme.none,       bg = scheme.Orange,     scheme.none },
     CursorColumn =     { fg = scheme.none,       bg = scheme.LightGrey,  scheme.none },
     CursorIM =         { fg = scheme.none,       bg = scheme.none,       scheme.none },
@@ -55,25 +55,25 @@ function setup.load_colors(scheme, settings)
     Error =            { fg = scheme.DarkRed,    bg = scheme.none,       style = "bold,underline" },
     ErrorMsg =         { fg = scheme.DarkRed,    bg = scheme.none,       scheme.none },
     Exception =        { fg = scheme.DarkRed,    bg = scheme.none,       scheme.none },
-    Float =            { fg = scheme.Orange,     bg = scheme.none,       scheme.none },
+    -- Float =            { fg = scheme.Orange,     bg = scheme.none,       scheme.none },
     FoldColumn =       { fg = scheme.Grey,       bg = scheme.DarkGrey,   scheme.none },
     Folded =           { fg = scheme.Grey,       bg = scheme.none,       scheme.none },
-    Function =         { fg = scheme.Aqua,       bg = scheme.none,       style = settings.st_functions },
-    Identifier =       { fg = scheme.Cyan,       bg = scheme.none,       style = settings.st_variables },
+    -- Function =         { fg = scheme.Aqua,       bg = scheme.none,       style = settings.st_functions },
+    -- Identifier =       { fg = scheme.Cyan,       bg = scheme.none,       style = settings.st_variables },
     Ignore =           { fg = scheme.none,       bg = scheme.none,       scheme.none },
     Italic =           { fg = scheme.none,       bg = scheme.none,       style = "italic" },
     IncSearch =        { fg = scheme.Black,      bg = scheme.DarkCyan,   scheme.none },
-    Include =          { fg = scheme.Cyan,       bg = scheme.none,       scheme.none },
-    Keyword =          { fg = scheme.Red,        bg = scheme.none,       style = settings.st_keywords },
-    Label =            { fg = scheme.Purple,     bg = scheme.none,       scheme.none },
+    -- Include =          { fg = scheme.Cyan,       bg = scheme.none,       scheme.none },
+    -- Keyword =          { fg = scheme.Red,        bg = scheme.none,       style = settings.st_keywords },
+    -- Label =            { fg = scheme.Purple,     bg = scheme.none,       scheme.none },
     LineNr =           { fg = scheme.DarkGrey,   bg = scheme.none,       scheme.none },
-    Macro =            { fg = scheme.Cyan,       bg = scheme.none,       scheme.none },
-    MatchParen =       { fg = scheme.Cyan,       bg = scheme.none,       style = "bold" },
+    -- Macro =            { fg = scheme.Cyan,       bg = scheme.none,       scheme.none },
+    -- MatchParen =       { fg = scheme.Cyan,       bg = scheme.none,       style = "bold" },
     NonText =          { fg = scheme.DarkGrey,   bg = scheme.none,       scheme.none },
     Normal =           { fg = scheme.White,      bg = settings.st_disable_bg or scheme.background, scheme.none },
     NormalFloat =      { fg = scheme.White,      bg = scheme.LightGrey,  scheme.none },
-    Number =           { fg = scheme.Red,        bg = scheme.none,       scheme.none },
-    Operator =         { fg = scheme.White,      bg = scheme.none,       scheme.none },
+    -- Number =           { fg = scheme.Red,        bg = scheme.none,       scheme.none },
+    -- Operator =         { fg = scheme.White,      bg = scheme.none,       scheme.none },
     PMenu =            { fg = scheme.none,       bg = scheme.LightGrey,  scheme.none },
     PMenuSbar =        { fg = scheme.none,       bg = scheme.Grey,       scheme.none },
     PMenuSel =         { fg = scheme.Black,      bg = scheme.Orange,     scheme.none },
@@ -84,20 +84,20 @@ function setup.load_colors(scheme, settings)
     Repeat =           { fg = scheme.Purple,     bg = scheme.none,       scheme.none },
     Search =           { fg = scheme.Black,      bg = scheme.Yellow,     scheme.none },
     SignColumn =       { fg = scheme.none,       bg = scheme.none,       scheme.none },
-    Special =          { fg = scheme.Yellow,     bg = scheme.none,       style = "italic" },
-    SpecialChar =      { fg = scheme.Blue,       bg = scheme.none,       scheme.none },
-    SpecialKey =       { fg = scheme.Orange,     bg = scheme.none,       style = "bold" },
-    Statement =        { fg = scheme.Purple,     bg = scheme.none,       scheme.none },
+    -- Special =          { fg = scheme.Yellow,     bg = scheme.none,       style = "italic" },
+    -- SpecialChar =      { fg = scheme.Blue,       bg = scheme.none,       scheme.none },
+    -- SpecialKey =       { fg = scheme.Orange,     bg = scheme.none,       style = "bold" },
+    -- Statement =        { fg = scheme.Purple,     bg = scheme.none,       scheme.none },
     StatusLine =       { fg = scheme.White,      bg = scheme.Grey,       scheme.none },
     StatusLineNC =     { fg = scheme.Grey,       bg = scheme.none,       scheme.none },
-    StorageClass =     { fg = scheme.Orange,     bg = scheme.none,       scheme.none  },
-    String =           { fg = scheme.Green,      bg = scheme.none,       style = "italic" },
+    -- StorageClass =     { fg = scheme.Orange,     bg = scheme.none,       scheme.none  },
+    -- String =           { fg = scheme.Green,      bg = scheme.none,       style = "italic" },
     TabLine =          { fg = scheme.DarkGrey,   bg = scheme.none,       scheme.none },
     TabLineFill =      { fg = scheme.none,       bg = scheme.Black,      scheme.none },
     TabLineSel =       { fg = scheme.Black,      bg = scheme.DarkCyan,   scheme.none },
     Title =            { fg = scheme.Blue,       bg = scheme.none,       style = "bold" },
-    Todo =             { fg = scheme.Yellow,     bg = scheme.none,       style = "bold,italic" },
-    Type =             { fg = scheme.Purple,     bg = scheme.none,       scheme.none },
+    -- Todo =             { fg = scheme.Yellow,     bg = scheme.none,       style = "bold,italic" },
+    -- Type =             { fg = scheme.Purple,     bg = scheme.none,       scheme.none },
     Typedef =          { fg = scheme.Cyan,       bg = scheme.none,       scheme.none },
     Underlined =       { fg = scheme.none,       bg = scheme.none,       syle = "underline" },
     VertSplit =        { fg = scheme.Pink,       bg = scheme.none,       scheme.none },
@@ -105,7 +105,7 @@ function setup.load_colors(scheme, settings)
     VisualNOS =        { fg = scheme.none,       bg = scheme.none,       style = "reverse"},
     WarningMsg =       { fg = scheme.DarkOrange, bg = scheme.none,       scheme.none },
     Warnings =         { fg = scheme.DarkOrange, bg = scheme.none,       style = "reverse" },
-    Whitespace =       { fg = scheme.DarkGrey,   bg = scheme.none,       scheme.none },
+    -- Whitespace =       { fg = scheme.DarkGrey,   bg = scheme.none,       scheme.none },
     WildMenu =         { fg = scheme.Orange,     bg = scheme.Black,      style = "bold" },
     qfFileName =       { fg = scheme.Blue,       bg = scheme.Black,      scheme.none },
     qfLineNr =         { fg = scheme.Yellow,     bg = scheme.none,       scheme.none },
@@ -138,45 +138,103 @@ function setup.load_colors(scheme, settings)
     ---------------------
 
     -- Treesitter colors
-    ["@boolean"] =             { fg = scheme.DarkYellow, bg = scheme.none, scheme.none },
-    ["@character"] =           { fg = scheme.Orange,     bg = scheme.none, scheme.none },
-    ["@conditional"] =         { fg = scheme.Red,        bg = scheme.none, scheme.none },
+    --- Constants: orange
     ["@constant"] =            { fg = scheme.Orange,     bg = scheme.none, scheme.none },
     ["@constant.builtin"] =    { fg = scheme.Orange,     bg = scheme.none, style = settings.st_builtins },
-    ["@constant.macro"] =      { fg = scheme.Orange,     bg = scheme.none, scheme.none },
-    ["@constructor"] =         { fg = scheme.DarkYellow, bg = scheme.none, scheme.none },
-    ["@comment"] =             { fg = scheme.DarkGrey,   bg = scheme.none, style = settings.st_comments },
-    ["@exception"] =           { fg = scheme.DarkRed,    bg = scheme.none, style = "undercurl" },
-    ["@error"] =               { fg = scheme.DarkRed,    bg = scheme.none, style = "undercurl" },
-    ["@field"] =               { fg = scheme.Purple,     bg = scheme.none, scheme.none },
-    ["@float"] =               { fg = scheme.Orange,     bg = scheme.none, scheme.none },
-    ["@function"] =            { fg = scheme.Aqua,       bg = scheme.none, style = settings.st_functions },
-    ["@function.builtin"] =    { fg = scheme.DarkAqua,   bg = scheme.none, style = settings.st_builtins },
-    ["@function.definition"] = { fg = scheme.Aqua,       bg = scheme.none, style = settings.st_definitions },
-    ["@function.macro"] =      { fg = scheme.Aqua,       bg = scheme.none, scheme.none },
-    ["@include"] =             { fg = scheme.Cyan,       bg = scheme.none, scheme.none },
-    ["@keyword"] =             { fg = scheme.Red,        bg = scheme.none, style = settings.st_keywords },
-    ["@label"] =               { fg = scheme.DarkYellow, bg = scheme.none, scheme.none },
-    ["@method"] =              { fg = scheme.Aqua,       bg = scheme.none, scheme.none },
-    ["@number"] =              { fg = scheme.Red,        bg = scheme.none, scheme.none },
-    ["@operator"] =            { fg = scheme.White,      bg = scheme.none, scheme.none },
+
+
+    --- Variables: cyan
+    ["@variable"] =            { fg = scheme.Cyan,       bg = scheme.none, style = settings.st_variables },
+    ["@variable.builtin"] =    { fg = scheme.Cyan,       bg = scheme.none, style = settings.st_builtins },
+    ["@variable.definition"] = { fg = scheme.Cyan,       bg = scheme.none, style = settings.st_definitions },
+
     ["@parameter"] =           { fg = scheme.Cyan,       bg = scheme.none, scheme.none },
-    ["@property"] =            { fg = scheme.DarkCyan,   bg = scheme.none, scheme.none },
-    ["@punctuation.bracket"] = { fg = scheme.White,      bg = scheme.none, scheme.none },
+
+
+    --- Functions: aqua
+    ["@function"] =            { fg = scheme.Aqua,       bg = scheme.none, style = settings.st_functions },
+    ["@function.builtin"] =    { fg = scheme.Aqua,       bg = scheme.none, style = settings.st_builtins },
+    ["@function.definition"] = { fg = scheme.Aqua,       bg = scheme.none, style = settings.st_definitions },
+
+
+    --- OOP Things: dark aqua
+    ["@method"] =              { fg = scheme.DarkAqua,   bg = scheme.none, scheme.none },
+    ["@constructor"] =         { fg = scheme.DarkAqua,   bg = scheme.none, scheme.none },
+    ["@property"] =            { fg = scheme.DarkAqua,   bg = scheme.none, scheme.none },
+    ["@field"] =               { fg = scheme.DarkAqua,   bg = scheme.none, scheme.none },
+    ["@variable.member"] =     { fg = scheme.DarkAqua,   bg = scheme.none, scheme.none },
+    ["@variable.member.definition"] = { fg = scheme.DarkAqua, bg = scheme.none, style = settings.st_definitions },
+
+
+    --- Macro things: violet and magenta
+    ["@constant.macro"] =      { fg = scheme.Violet,     bg = scheme.none, scheme.none },
+    ["@function.macro"] =      { fg = scheme.Magenta,    bg = scheme.none, scheme.none },
+
+
+    --- Comments: dark grey
+    ["@comment"] =             { fg = scheme.DarkGrey,   bg = scheme.none, style = settings.st_comments },
+    ["@comment.documentation"]={ fg = scheme.Grey,       bg = scheme.none, style = settings.st_comments },
+    ["@todo"] =                { fg = scheme.Yellow,     bg = scheme.none, style = settings.st_todos },
+    ["@comment.todo"] =        { fg = scheme.Yellow,     bg = scheme.none, style = settings.st_todos },
+    ["@comment.note"] =        { fg = scheme.Yellow,     bg = scheme.none, style = settings.st_todos },
+
+
+    --- Numbers: orange
+    ["@float"] =               { fg = scheme.Orange,     bg = scheme.none, scheme.none },
+    ["@number"] =              { fg = scheme.Orange,     bg = scheme.none, scheme.none },
+
+
+    --- Boolean: dark yellow
+    ["@boolean"] =             { fg = scheme.DarkYellow, bg = scheme.none, scheme.none },
+
+
+    --- String and char: green
+    ["@character"] =           { fg = scheme.Green,      bg = scheme.none, scheme.none },
     ["@string"] =              { fg = scheme.Green,      bg = scheme.none, scheme.none },
     ["@string.escape"] =       { fg = scheme.Orange,     bg = scheme.none, scheme.none },
     ["@string.regex"] =        { fg = scheme.Red,        bg = scheme.none, scheme.none },
-    ["@structure"] =           { fg = scheme.Purple,     bg = scheme.none, scheme.none },
-    ["@tag.delimiter"] =       { fg = scheme.Green,      bg = scheme.none, scheme.none },
+
+
+    --- Types: yellow
     ["@type"] =                { fg = scheme.Yellow,     bg = scheme.none, scheme.none },
     ["@type.builtin"] =        { fg = scheme.Yellow,     bg = scheme.none, style = settings.st_builtins },
-    ["@type.definition"] =     { fg = scheme.DarkYellow, bg = scheme.none, style = settings.st_definitions },
-    ["@variable"] =            { fg = scheme.Cyan,       bg = scheme.none, style = settings.st_variables },
-    ["@variable.builtin"] =    { fg = scheme.DarkCyan,   bg = scheme.none, style = settings.st_builtins },
-    ["@variable.definition"] = { fg = scheme.Cyan,       bg = scheme.none, style = settings.st_definitions },
-    ["@todo"] =                { fg = scheme.Yellow,     bg = scheme.none, style = settings.st_todos },
-    ["@comment.todo"] =        { fg = scheme.Yellow,     bg = scheme.none, style = settings.st_todos },
+    ["@type.definition"] =     { fg = scheme.Yellow,     bg = scheme.none, style = settings.st_definitions },
+    -- this is the "mut" keyword in Rust
+    ["@type.qualifier"] =      { fg = scheme.Yellow,     bg = scheme.none, style = settings.st_qualifiers },
+    ["@structure"] =           { fg = scheme.Yellow,     bg = scheme.none, scheme.none },
 
+
+    --- Statements
+    ["@conditional"] =         { fg = scheme.DarkRed,    bg = scheme.none, style = "italic" },
+
+
+    --- Unstyled: white
+    ["@operator"] =            { fg = scheme.White,      bg = scheme.none, scheme.none },
+    ["@punctuation.bracket"] = { fg = scheme.White,      bg = scheme.none, scheme.none },
+
+
+    --- Errors: dark red
+    ["@exception"] =           { fg = scheme.DarkRed,    bg = scheme.none, style = "undercurl" },
+    ["@error"] =               { fg = scheme.DarkRed,    bg = scheme.none, style = "undercurl" },
+
+
+    --- Misc
+    ["@tag.delimiter"] =       { fg = scheme.DarkGreen,  bg = scheme.none, scheme.none },
+    ["@keyword"] =             { fg = scheme.Red,        bg = scheme.none, style = settings.st_keywords },
+    ["@label"] =               { fg = scheme.DarkGreen,  bg = scheme.none, scheme.none },
+
+
+    --- Punctuation
+    ["@punctuation.delimiter"]={ fg = scheme.Orange,     bg = scheme.none, scheme.none },
+    ["@punctuation.bracket"] = { fg = scheme.Red,        bg = scheme.none, scheme.none }, -- fallback for when the rainbow does not work
+
+
+    --- Imports: purple
+    ["@include"] =             { fg = scheme.Purple,     bg = scheme.none, scheme.none },
+    ["@module"] =              { fg = scheme.Purple,     bg = scheme.none, scheme.none },
+
+
+    --- Markup / Markdown
     ["@markup.heading"] =      { fg = scheme.Blue,       bg = scheme.none, scheme.none },
     ["@markup.list"] =         { fg = scheme.Blue,       bg = scheme.none, style = "bold" },
     ["@markup.italic"] =       { fg = scheme.White,      bg = scheme.none, style = "italic" },
@@ -186,6 +244,8 @@ function setup.load_colors(scheme, settings)
     ["@markup.link.label"] =   { fg = scheme.Cyan,       bg = scheme.none, style = "underline" },
     ["@markup.link.url"] =     { fg = scheme.DarkCyan,   bg = scheme.none, scheme.none },
     ["@punctuation.special.markdown"] = {fg = scheme.Yellow, bg = scheme.none, scheme.none },
+
+
     -- ["@macro"] = {},
     -- ["@text.underline"] = {},
     -- ["@repeat"] = {},
@@ -260,6 +320,7 @@ function setup.load_colors(scheme, settings)
     DiagnosticSignHint         = { fg = scheme.Custom_2,   bg = scheme.none, scheme.none },
     DiagnosticUnderlineHint    = { fg = scheme.none,       bg = scheme.none, style = "underline" },
     DiagnosticVirtualTextHint  = { fg = scheme.Custom_2,   bg = scheme.none, scheme.none },
+    DiagnosticUnnecessary      = { fg = scheme.DarkGrey,   bg = scheme.none, scheme.none },
 
     -- Telescope
     TelescopeBorder =         { fg = scheme.DarkOrange,  bg = scheme.none, scheme.none },

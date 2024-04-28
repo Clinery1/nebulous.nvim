@@ -16,6 +16,7 @@ local default_options = {
     builtins = false,
     definitions = false,
     todos = false,
+    qualifiers = false,
   },
   bold = {
     comments = false,
@@ -25,6 +26,7 @@ local default_options = {
     builtins = false,
     definitions = false,
     todos = false,
+    qualifiers = false,
   },
   underline = {
     comments = false,
@@ -34,6 +36,7 @@ local default_options = {
     builtins = false,
     definitions = false,
     todos = false,
+    qualifiers = false,
   },
   undercurl = {
     comments = false,
@@ -43,6 +46,7 @@ local default_options = {
     builtins = false,
     definitions = false,
     todos = false,
+    qualifiers = false,
   },
   underdouble = {
     comments = false,
@@ -52,6 +56,7 @@ local default_options = {
     builtins = false,
     definitions = false,
     todos = false,
+    qualifiers = false,
   },
   underdash = {
     comments = false,
@@ -61,6 +66,7 @@ local default_options = {
     builtins = false,
     definitions = false,
     todos = false,
+    qualifiers = false,
   },
   custom_colors = {},
 }
@@ -87,6 +93,7 @@ function M.get_scheme_options(config)
   local italic_builtins = config.italic.builtins and "italic" or "NONE"
   local italic_definitions = config.italic.definitions and "italic" or "NONE"
   local italic_todos = config.italic.todos and "italic" or "NONE"
+  local italic_qualifiers = config.italic.qualifiers and "italic" or "NONE"
 
   local bold_comments = config.bold.comments and "bold" or "NONE"
   local bold_keywords = config.bold.keywords and "bold" or "NONE"
@@ -95,6 +102,7 @@ function M.get_scheme_options(config)
   local bold_builtins = config.bold.builtins and "bold" or "NONE"
   local bold_definitions = config.bold.definitions and "bold" or "NONE"
   local bold_todos = config.bold.todos and "bold" or "NONE"
+  local bold_qualifiers = config.bold.qualifiers and "bold" or "NONE"
 
   local underline_comments = config.underline.comments and "underline" or "NONE"
   local underline_keywords = config.underline.keywords and "underline" or "NONE"
@@ -103,6 +111,7 @@ function M.get_scheme_options(config)
   local underline_builtins = config.underline.builtins and "underline" or "NONE"
   local underline_definitions = config.underline.definitions and "underline" or "NONE"
   local underline_todos = config.underline.todos and "underline" or "NONE"
+  local underline_qualifiers = config.underline.qualifiers and "underline" or "NONE"
 
   local undercurl_comments = config.undercurl.comments and "undercurl" or "NONE"
   local undercurl_keywords = config.undercurl.keywords and "undercurl" or "NONE"
@@ -111,6 +120,7 @@ function M.get_scheme_options(config)
   local undercurl_builtins = config.undercurl.builtins and "undercurl" or "NONE"
   local undercurl_definitions = config.undercurl.definitions and "undercurl" or "NONE"
   local undercurl_todos = config.undercurl.todos and "undercurl" or "NONE"
+  local undercurl_qualifiers = config.undercurl.qualifiers and "undercurl" or "NONE"
 
   local underdouble_comments = config.underdouble.comments and "underdouble" or "NONE"
   local underdouble_keywords = config.underdouble.keywords and "underdouble" or "NONE"
@@ -119,6 +129,7 @@ function M.get_scheme_options(config)
   local underdouble_builtins = config.underdouble.builtins and "underdouble" or "NONE"
   local underdouble_definitions = config.underdouble.definitions and "underdouble" or "NONE"
   local underdouble_todos = config.underdouble.todos and "underdouble" or "NONE"
+  local underdouble_qualifiers = config.underdouble.qualifiers and "underdouble" or "NONE"
 
   local underdash_comments = config.underdash.comments and "underdashed" or "NONE"
   local underdash_keywords = config.underdash.keywords and "underdashed" or "NONE"
@@ -127,6 +138,7 @@ function M.get_scheme_options(config)
   local underdash_builtins = config.underdash.builtins and "underdashed" or "NONE"
   local underdash_definitions = config.underdash.definitions and "underdashed" or "NONE"
   local underdash_todos = config.underdash.todos and "underdashed" or "NONE"
+  local underdash_qualifiers = config.underdash.qualifiers and "underdashed" or "NONE"
 
   settings.st_eof = config.disable.endOfBuffer
   settings.term_colors = config.disable.terminal_colors
@@ -139,6 +151,7 @@ function M.get_scheme_options(config)
   settings.st_builtins = italic_builtins .. "," .. bold_builtins .. "," .. underline_builtins .. "," .. undercurl_builtins .. "," .. underdouble_builtins .. "," .. underdash_builtins
   settings.st_definitions = italic_definitions .. "," .. bold_definitions .. "," .. underline_definitions .. "," .. undercurl_definitions .. "," .. underdouble_definitions .. "," .. underdash_definitions
   settings.st_todos = italic_todos .. "," .. bold_todos .. "," .. underline_todos .. "," .. undercurl_todos .. "," .. underdouble_todos .. "," .. underdash_todos
+  settings.st_qualifiers = italic_qualifiers .. "," .. bold_qualifiers .. "," .. underline_qualifiers .. "," .. undercurl_qualifiers .. "," .. underdouble_qualifiers .. "," .. underdash_qualifiers
 
   return settings
 end
