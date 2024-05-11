@@ -147,8 +147,7 @@ function setup.load_colors(scheme, settings)
     ["@variable"] =            { fg = scheme.Cyan,       bg = scheme.none, style = settings.st_variables },
     ["@variable.builtin"] =    { fg = scheme.Cyan,       bg = scheme.none, style = settings.st_builtins },
     ["@variable.definition"] = { fg = scheme.Cyan,       bg = scheme.none, style = settings.st_definitions },
-
-    ["@parameter"] =           { fg = scheme.Cyan,       bg = scheme.none, scheme.none },
+    ["@variable.parameter"] =  { fg = scheme.Cyan,       bg = scheme.none, style = settings.st_definitions },
 
 
     --- Functions: aqua
