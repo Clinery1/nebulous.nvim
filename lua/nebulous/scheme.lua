@@ -181,6 +181,7 @@ function setup.load_colors(scheme, settings)
     --- Numbers: orange
     ["@float"] =               { fg = scheme.Orange,     bg = scheme.none, scheme.none },
     ["@number"] =              { fg = scheme.Orange,     bg = scheme.none, scheme.none },
+    ["@number.float"] =        { fg = scheme.Orange,     bg = scheme.none, scheme.none },
 
 
     --- Boolean: dark yellow
@@ -209,7 +210,7 @@ function setup.load_colors(scheme, settings)
 
     --- Unstyled: white
     ["@operator"] =            { fg = scheme.White,      bg = scheme.none, scheme.none },
-    ["@punctuation.bracket"] = { fg = scheme.White,      bg = scheme.none, scheme.none },
+    ["@punctuation"] =         { fg = scheme.White,      bg = scheme.none, scheme.none },
 
 
     --- Errors: dark red
